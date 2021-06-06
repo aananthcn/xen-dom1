@@ -1,0 +1,10 @@
+# kernel value have to be replaced by absolute path!
+kernel = "dom1_image"
+# Initial memory allocation (in megabytes) for the new
+# domain.
+memory = 32
+# A name for your domain. All domains must have
+# different names.
+name = "Xen Domain 1"
+
+on_crash = 'destroy'
